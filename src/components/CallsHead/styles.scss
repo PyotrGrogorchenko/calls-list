@@ -1,0 +1,18 @@
+// @import '@src/styles/vars.scss';
+// @import '@src/styles/mixins.scss';
+
+// .container {
+//     @include text-secondary;
+//     font-size: 14px;
+// }
+
+@import '@src/styles/vars.scss';
+
+.container {
+    background-color: $bg-main-color;
+    width: 100%;
+}
+
+.tableRowContainer {
+    box-shadow: none;
+}

@@ -1,0 +1,26 @@
+@import '@src/styles/vars.scss';
+@import '@src/styles/mixins.scss';
+
+.tag {
+    padding: 6px 8px 6px 8px;
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.success {
+    color: $success-text-color;
+    background-color: $success-background-color;
+    border-color: $success-border-color;
+}
+
+.error {
+    color: $error-text-color;
+    background-color: $error-background-color;
+    border-color: $error-border-color;
+}
+
+.warn {
+    color: $warn-text-color;
+    background-color: $warn-background-color;
+    border-color: $warn-border-color;
+}

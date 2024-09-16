@@ -1,0 +1,9 @@
+@import '@src/styles/vars.scss';
+@import '@src/styles/mixins.scss';
+
+.container {
+    @include text-primary;
+    background-color: $bg-main-color;
+    width: 100%;
+    border-collapse: collapse;
+}

@@ -1,0 +1,17 @@
+@import '@src/styles/vars.scss';
+@import '@src/styles/mixins.scss';
+
+.container {
+    background-color: $bg-main-color;
+    width: 100%;
+}
+
+.rotate-25 {
+    @include rotate-25;
+}
+.rotate-50 {
+    @include rotate-50;
+}
+.rotate-75 {
+    @include rotate-75;
+}

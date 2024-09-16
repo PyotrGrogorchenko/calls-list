@@ -1,0 +1,23 @@
+@mixin text-primary {
+    font-size: 15px;
+    color: $text-primary-color;
+    font-weight: 400;
+}
+
+@mixin text-secondary {
+    font-size: 15px;
+    color: $text-secondary-color;
+    font-weight: 400;
+}
+
+@mixin rotate-25 {
+    transform: rotate(0.25turn);
+}
+
+@mixin rotate-50 {
+    transform: rotate(0.5turn);
+}
+
+@mixin rotate-75 {
+    transform: rotate(0.75turn);
+}

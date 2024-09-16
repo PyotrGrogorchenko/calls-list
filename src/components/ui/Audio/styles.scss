@@ -1,0 +1,30 @@
+.container {
+    width: 352px;
+    height: 48px;
+
+    background: #79b367;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 6px auto;
+}
+
+.timeline {
+    background: white;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.progress {
+    background: coral;
+    width: 0%;
+    height: 100%;
+    transition: 0.25s;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0 20px;
+}

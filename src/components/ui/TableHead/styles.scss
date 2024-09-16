@@ -1,0 +1,8 @@
+@import '@src/styles/vars.scss';
+@import '@src/styles/mixins.scss';
+
+.container {
+    @include text-secondary;
+    height: 65px;
+    font-size: 14px;
+}

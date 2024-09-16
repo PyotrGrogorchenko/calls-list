@@ -1,0 +1,43 @@
+@import '@src/styles/vars.scss';
+@import '@src/styles/mixins.scss';
+
+.container {
+    font-size: 14px;
+
+    [class$='-control'] {
+        border: none;
+        outline: none;
+        box-shadow: none;
+        background-color: inherit;
+    }
+
+    [class$='-indicatorSeparator'] {
+        display: none;
+    }
+
+    [class$='-menu'] {
+        background-color: #ffffff;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        display: block !important;
+        box-shadow: 0px 0px 20px 0px #00000014;
+    }
+
+    [class$='-option'] {
+        color: #2b2d33;
+        font-size: 12px;
+        font-weight: 400;
+        &:hover {
+            background-color: #dee4ff;
+        }
+    }
+
+    [aria-selected='true'] {
+        color: #015ef5;
+        background-color: #ffffff;
+        &:hover {
+            background-color: #dee4ff;
+        }
+    }
+}
